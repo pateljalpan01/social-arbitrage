@@ -42,7 +42,8 @@ Institutional investors often react to news before it hits traditional terminals
 ├── debug_brain.py         # Unit test for the Analysis Engine (tests NLP model without scraping).
 ├── debug_news.py          # Unit test for the News Scraper (validates selectors).
 ```
-### 🔬 Methodology: Social-News Latency Arbitrage
+
+## 🔬 Methodology: Social-News Latency Arbitrage
 
 The core thesis is that "The Crowd" (Twitter/Retail) reacts to information faster than "The Reporters" (Mainstream News). The model profits from this time gap.
 
@@ -66,7 +67,8 @@ The bot dynamically adjusts its entry thresholds based on recent performance:
 * **Win Rate > 70%:** Lowers filter standards (Aggressive Mode).
 * **Win Rate < 40%:** Raises standards to filter noise (Defensive Mode).
 
-### 🛠 Tech Stack
+
+## 🛠 Tech Stack
 * **Core:** Python 3.10+, Pandas, NumPy
 * **NLP Models:**
     * `ProsusAI/finbert` (Formal Financial News)
@@ -107,6 +109,7 @@ python main.py --mode=paper_trade
 
 <br>
 </br>
+
 ### ⚠️_Disclaimer_
 
 _Educational Resource Only. This software is designed for data science research and testing NLP architectures. It is not a financial product and does not guarantee profit. Web scraping may violate specific Terms of Service; users are responsible for their own compliance and rate-limiting._
