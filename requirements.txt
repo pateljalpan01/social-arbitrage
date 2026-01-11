@@ -1,0 +1,14 @@
+torch >= 2.0.0 #this is the actual engine behind the BERT model
+transformers>=4.30.0 #this will allow us to pull a pre-trained model
+playwright>=1.40.0 #this allows us to see on the webpage and get information
+pandas>=2.0.0
+numpy>=1.24.0
+#pandas and numpy will allow us to complete the mathematical calculations
+python-dotenv #to manage various environment variables
+tqdm #to show a progress bar
+yahoo_fin
+requests_html
+matplotlib
+seaborn
+yfinance
+nltk
